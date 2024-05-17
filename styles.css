@@ -1,0 +1,44 @@
+/* Resetting default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Setting a background color */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif; /* Setting a fallback font */
+  }
+  
+  /* Styling the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styling the main content */
+  .container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  /* Styling links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styling the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
